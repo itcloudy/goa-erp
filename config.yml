@@ -1,0 +1,9 @@
+database:
+  type: mysql # 数据库类型
+  name: goa-erp # 数据库名称
+  user: root # 数据库用户
+  password: 123456 # 数据库用户密码
+  host: localhost # 数据库ip
+  port: 3306  # 数据库端口
+  model: disable # 连接模式  只针对postgresql
+  chart: utf8 # 数据库字符编码
